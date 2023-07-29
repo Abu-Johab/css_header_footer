@@ -3,84 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cbd4d18ae9.js" crossorigin="anonymous"></script>
+    <title>Welcome to our website</title>
 </head>
 <body>
-    <h1 style="text-align: center;">Sign up form</h1>
-    <hr>
- <form>
- <label for="name">Name:</label>
- <input type="text" id="name" name="Username" placeholder="Enter Name ">
-<br>
-<br>
-<label for="email">Email:</label>
- <input type="email" id="email" name="Usermail" placeholder="Enter Email " required>
-<br>
-<br>
-<label for="password">Password:</label>
-<input type="password" id="password" name="Userpass">
-<br>
-<br>
-<label for="phone">Phone Number:</label>
-<select name="code">
-    <option value="+880">+880</option>
-    <option value="+890">+890</option>
-    <option value="+870">+870</option>
-</select>
-<input type="number" id="phone" name="UserPhone">
-<br>
-<br>
-Gender:
-<label for="gend1" >Male</label>
-<input type="radio" id="gend1" name="Usergender">
+  <!--header start-->
+  <header>
+    <div class="logo">Hablu vaiya</div>
+    <div class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Services</a>
+        <ul>
+          <li>graphics</li>
+          <li>web desdign</li>
+          <li>seo</li>
+        </ul>
+        
+        </li>
+        
+        <li><a href="#">About us</a></li>
+      </ul>
+    </div>
+  </header>
+  <!--header end-->
 
-<label for="gend2" >FeMale</label>
-<input type="radio" id="gend2" name="Usergender">
-<br>
-<br>
-<label for="country">Country:</label>
-<input list="cntry">
-<datalist id="cntry">
+  <footer>
+    <div class="name">
+      <h2>HABLU Programmer</h2>
+    </div>
+    <div class="text">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quam, officiis quod nobis vero non! Rerum aliquid nesciunt laborum vel?</p>
+    </div>
+    
+      <div class="icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
 
-    <option value="Bangladesh"></option>
-    <option value="India"></option>
-    <option value="Pakistan"></option>
-    <option value="Nepal"></option>
-    <option value="Japan"></option>
-
-</datalist>
-<br>
-<br>
-<label for="dat">Date:</label>
-<input type="date" id="dat" name="Userdate">
-<br>
-<br>
-<label for="tm">Time:</label>
-<input type="time" id="tm" name="usertime">
-<br>
-<br>
-<label for="colors" >Color:</label>
-<input type="color" id="colors" name="usercolor">
-<br>
-<br>
-<label for="file">Choose Photo:</label>
-<input type="file" id="file" name="Userfile">
-<br>
-<br>
-<label for="bike" >I have a Bike</label>
-<input type="checkbox" id="bike" name="Uservehicle">
-<label for="bycycle" >I have a bycycle</label>
-<input type="checkbox" id="bycycle" name="Uservehicle">
-<br>
-<br>
-<textarea name="TextArea"  rows="12" cols="40" placeholder="write your comments here"></textarea>
-<br>
-<br>
-<input type="submit">
-<input type="reset">
-
- </form>
-
-
+      </div>
+       <div class="copy">
+        copyright @2021 by Hablu Programmer.
+       </div>
+  </footer>
 </body>
 </html>
